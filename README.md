@@ -6,15 +6,11 @@ This project focuses on network enumeration using Nmap to identify live hosts on
 <br />
 
 
-<h2>Tools Used</h2>
+<h2>Frameworks Used</h2>
 
-- <b>Nmap</b> 
+- <b>Burp Suite</b> 
 
-<h2>Environments Used </h2>
-
-- <b>Kali Linux</b>
-
-<h2>Enumeration walk-through:</h2>
+<h2>Burp Suite Proxy Walkthrough:</h2>
 
 <p align="center">
 Launch the attacking VM: <br/>
