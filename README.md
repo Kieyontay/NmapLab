@@ -18,7 +18,7 @@ This project focuses on network enumeration using Nmap to identify live hosts on
 
 <p align="center">
 Launch the attacking VM: <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/Kieyontay/NmapLab/blob/main/Kali%20System%20Startup.png?raw=true" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Launch the target VM:  <br/>
