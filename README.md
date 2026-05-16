@@ -22,29 +22,21 @@ Launch the attacking VM: <br/>
 <br />
 <br />
 Launch the target VM:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/Kieyontay/NmapLab/blob/main/Metasploitable%202%20Startup.png?raw=true" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Run Nmap 192.168.69.2: <br/>
+<img src="https://github.com/Kieyontay/NmapLab/blob/main/Nmap%20basic%20port%20scan.png?raw=true" height="80%" width="80%" alt="Disk Sanitization Steps"/> <br />
+Nmap command will run a basic port scan against the target machine showing which ports are open and the services running on them. For example, port 22 is showing as open and has SSH as the service which means a remote service is running, allowing for a potential brute-force attack if there are weak credentials present in the system.<br />
+<br />
+Run Nmap -sV -n 192.168.69.2:  <br/>
+<img src="https://github.com/Kieyontay/NmapLab/blob/main/Nmap%20service%20port%20scan.png?raw=true" height="80%" width="80%" alt="Disk Sanitization Steps"/> <br />
+-sV enables us to identify what services and their versions are running on the target machine which will enable us to identify any vulnerabilities such as outdated versions that can be exploited.<br />
+<br />
+-n disables reverse-dns lookup, preventing Nmap from resolving IP addresses to hostnames, improving scan efficiency. 
 <br />
 <br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-
+At this stage of the reconnaisance phase, we are able use Nmap to identify potentially vulnerable services running on our target machine and gather information that can be used to assess potential vulnerabilities and attack vectors. We can use publicly available vulnerability databases to research service versions and identify any associated known vulnerabilities, helping to assess whether they may be exploitable in a given environment.
 <!--
  ```diff
 - text in red
