@@ -2,7 +2,7 @@
 
 
 <h2>Description</h2>
-This project focuses on network enumeration using Nmap to identify live hosts on a vulnerable system. Port scanning is a critical step in the reconnaissance phase of penetration testing, enabling security professionals to gather essential information about target systems before moving to the exploitation stage.
+This project is an introduction to the basics of Burp Suite. Burp Suite is a framework used for web application penetration testing. I will use Burp Suite to capture and manipulate all of the HTTP/HTTPS traffic between a browser and web server. Burp Suite is an invaluable tool for manual web application testing. I will be using the Burp Suite Community edition throughout this project.
 <br />
 
 
