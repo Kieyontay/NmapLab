@@ -2,15 +2,15 @@
 
 
 <h2>Description</h2>
-This project is an introduction to the basics of Burp Suite. Burp Suite is a framework used for web application penetration testing. I will use Burp Suite to capture and manipulate all of the HTTP/HTTPS traffic between a browser and web server. Burp Suite is an invaluable tool for manual web application testing. I will be using the Burp Suite Community edition throughout this project.
+This lab highlights how reconnaissance and enumeration techniques are used by security professionals to better understand a target system and identify areas that may require further security assessment.
 <br />
 
 
-<h2>Frameworks Used</h2>
+<h2>Tools Used</h2>
 
-- <b>Burp Suite</b> 
+- <b>Nmap</b> 
 
-<h2>Burp Suite Proxy Walkthrough:</h2>
+<h2>Network Enumeration Walkthrough:</h2>
 
 <p align="center">
 Launch the attacking VM: <br/>
